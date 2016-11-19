@@ -1,0 +1,14 @@
+
+<!-- 
+     Print 'Hello Steve' if Steve is logged in,
+     'Hello Helen' if Helen is logged in, or just 
+     'Hello' if nobody is logged in. 
+-->
+
+<!-- Print some personal user info -->
+{if $ENV.user}
+  Hello {$ENV.username}<hr>
+  Phone number: {$ENV.user->val('phone')}<br/>
+  Email address: {$ENV.user->val('email')}<br/>
+{/if}
+
