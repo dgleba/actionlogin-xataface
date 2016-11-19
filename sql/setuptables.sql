@@ -5,6 +5,7 @@ SET NAMES utf8;
 -- SET foreign_key_checks = 0;
 SET sql_mode = 'NO_AUTO_VALUE_ON_ZERO';
 
+
 DROP TABLE IF EXISTS `people`;
 CREATE TABLE `people` (
   `name` varchar(255) NOT NULL,
@@ -12,6 +13,11 @@ CREATE TABLE `people` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 
+INSERT INTO `people` (`name`, `id`) VALUES
+('Dave',	1),
+('Bob',	2),
+('Ken',	3),
+('Joe',	4);
 
 DROP TABLE IF EXISTS `users_xataface`;
 CREATE TABLE `users_xataface` (
@@ -29,5 +35,7 @@ CREATE TABLE `users_xataface` (
   PRIMARY KEY (`username`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+INSERT INTO `users_xataface` (`username`, `password`, `Role`, `first_name`, `last_name`, `address`, `phone_num`, `email`, `comment_fld1`, `createdtime`, `updatedtime`) VALUES
+('a',	'',	'EDIT',	NULL,	NULL,	NULL,	NULL,	'x@x.com',	NULL,	'2013-06-18 17:46:12',	'2013-07-17 11:28:59');
 
--- 2016-11-19 14:45:15
+-- 2016-11-19 16:33:15

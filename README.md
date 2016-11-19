@@ -26,8 +26,10 @@ David Gleba
 2016-11-19
 
 
-https://github.com/dgleba/actionlogin-xataface
-
-xataface.com
+## ref..
 
 https://groups.google.com/d/topic/xataface/5KXPXV2awVI/discussion
+
+http://xataface.com
+
+https://github.com/dgleba/actionlogin-xataface
