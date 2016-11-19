@@ -34,3 +34,7 @@ https://groups.google.com/d/topic/xataface/5KXPXV2awVI/discussion
 http://xataface.com
 
 https://github.com/dgleba/actionlogin-xataface
+
+
+xataface version..    
+  -  Latest commit fa0e32b  16 hours ago @shannah shannah Added --escape-json query parameter for the edit action to explicitly
