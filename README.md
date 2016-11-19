@@ -1,7 +1,8 @@
 # actionlogin-xataface
 
 
-This repo is a mimimal example app showing an issue I am trying to resolve in Xataface.
+This repo is a mimimal example app showing an issue I am trying to resolve in Xataface. See https://groups.google.com/d/topic/xataface/5KXPXV2awVI/discussion
+
 
 
 ## Post
