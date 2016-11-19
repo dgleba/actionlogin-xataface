@@ -27,6 +27,33 @@ David Gleba
 2016-11-19
 
 
+
+
+## Answer
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+If you add a permission to your action in the actions.ini file it will enforce this behaviour:
+
+e.g.
+
+[hello]
+    permission=view
+
+If your permissions are set up such that the "public" (i.e. no logged in user) doesn't have the "view" permission, then the user will be redirected to the login prompt when they try to access the hello action.
+
+Steve
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Thank you very much Steve. That works!
+
+
+
+
 ## ref..
 
 https://groups.google.com/d/topic/xataface/5KXPXV2awVI/discussion
