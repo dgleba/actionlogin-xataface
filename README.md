@@ -65,3 +65,19 @@ https://github.com/dgleba/actionlogin-xataface
 
 xataface version..    
   -  Latest commit fa0e32b  16 hours ago @shannah shannah Added --escape-json query parameter for the edit action to explicitly
+
+  
+# One example of installing this app.
+
+```
+cd /var/www/html
+git clone https://github.com/dgleba/actionlogin-xataface.git actionlogin
+cd actionlogin
+touch templates_c/.keep
+cp config.dbc.example config.dbc
+cd ..
+git clone https://github.com/shannah/xataface.git
+```
+
+
+  

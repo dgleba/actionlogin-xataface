@@ -1,0 +1,8 @@
+
+[_database]
+    host=10.4.11.186:6022
+    name=test
+    user=root
+    password=root
+    driver=mysqli
+    
